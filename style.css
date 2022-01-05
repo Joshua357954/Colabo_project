@@ -24,6 +24,10 @@ a{
 	text-decoration: none;
 }
 
+p{
+	text-align: left;
+}
+
 .header{
 	width:100%;
 	background: url(img/header-logo.jpg) ;
@@ -63,12 +67,23 @@ a{
 .email-button{
 	background-color: var(--red-color);
 	padding: 13px 20px;
-
 }
+
+.email-button:hover{
+	opacity: .9;
+}
+
 
 .full-width{
 	width: 100%;
 }
+
+.header-inner{
+	position: relative;
+	top:200px;
+}
+
+
 
 /* Buttons */
 
@@ -76,6 +91,7 @@ a{
 	padding:9px 14px;
 	border-radius: 5px;
 	font-weight: 300;
+	font-size: 12px;
 	position: absolute;
 	top:30px;
 	right:60px;
@@ -88,10 +104,17 @@ a{
 	margin: 10px 0;
 }
 
-.tv-image{
-	width: 60%;
+.section-image{
+	max-width: 40%;
 }
 
+.text-box{
+	justify-content: space-around;
+}
+
+.justify-space{
+	justify-content: space-around;
+}
 
 
 /* Display Flex */
@@ -100,19 +123,26 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .flex-row{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
+}
+
+.flex-start{
+	align-items: flex-start;
+}
+
+.flex-inner-a{
+	width: 80%;
+	margin:50px;
 }
 
 
-.header-inner{
-	position: relative;
-	top:200px;
-}
 
 
 /* colors */
@@ -146,20 +176,35 @@ a{
 .text-lg{
 	font-size: 40px;
 	color:var(--white-color);
+	padding:10px;
 }
 
 .text-md{
-	font-size: 24px;
+	font-size: 25px;
 	color:var(--white-color);
+	padding:10px;
 }
 
 .text-sm{
-	font-size: 16px;
+	font-size: 14px;
 	color:var(--white-color);
+	text-align: center;
 }
 
 
 
+/* Padding */
 
+.py-md{
+	padding:12px 0;
+}
 
+.py-sm{
+	padding:6px 0;
+}
 
+.px-md{
+	padding:55px 40px 55px 0;
+	letter-spacing: 1.2px;
+	width:90%;
+}
