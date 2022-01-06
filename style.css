@@ -322,6 +322,7 @@ p{
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		font-size: 35px;
 
 	}
 
@@ -330,12 +331,14 @@ p{
 		justify-content: center;
 		width:90%;
 		text-align: center;
+		font-size: 25px;
 	}
 
 	.text-md{
 		align-items: center;
 		text-align: center;
 		justify-content: center;
+		font-size: 18px;
 		width:90%;
 	}
 
