@@ -93,6 +93,7 @@ p{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	flex-wrap: wrap;
 }
 
 .header-inner{
@@ -126,10 +127,10 @@ p{
 	max-width: 50%;
 }
 
-.justify-space{
+/*.justify-space{
 	justify-content: space-around;
 }
-
+*/
 
 /* Display Flex */
 
@@ -341,6 +342,9 @@ p{
 		font-size: 18px;
 		width:90%;
 	}
+	.text-sm{
+		font-size: 13px;
+	}
 
 	.p-width{
 		max-width: 100%;
@@ -350,7 +354,36 @@ p{
 		justify-content: center;
 		align-items: center;
 	}
+
+	.logo{
+		left:20px;
+	}
+
+	.sign-up-btn{
+		right:10;
+	}
+
+	.px-md1{
+		padding:55px 40px 55px 0;
+		letter-spacing: 1.2px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.px-md2{
+		padding:55px 0 55px 0;
+		letter-spacing: 1.2px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.logo{
+		width: 20%;
+		height: 20%;
+	}
+
 }
+
 
 
 
